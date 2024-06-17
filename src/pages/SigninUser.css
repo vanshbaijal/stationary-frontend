@@ -1,0 +1,74 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+  }
+  
+  .signin-container {
+    max-width: 400px;
+    margin: 50px auto;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .inputs-section {
+    text-align: center;
+  }
+  
+  h2 {
+    color: #333;
+  }
+  
+  .signin-inputs {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .signin-inputs-btn-container {
+    margin-top: 20px;
+  }
+  
+  .signin-inputs-btn {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    margin: 10px 0;
+    cursor: pointer;
+    border-radius: 8px;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .signin-inputs-btn:hover {
+    background-color: #45a049;
+  }
+  
+  h3 {
+    margin-top: 20px;
+    color: #333;
+  }
+  
+  .landing-signin-btn {
+    background-color: #2196F3;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    margin: 10px 0;
+    cursor: pointer;
+    border-radius: 8px;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .landing-signin-btn:hover {
+    background-color: #0b7dda;
+  }
+  

@@ -1,0 +1,45 @@
+.admin-page {
+    max-width: 800px;
+    margin: 50px auto;
+    background-color: #f0f0f0;
+    padding: 20px;
+  }
+  
+  h2 {
+    color: #333;
+    text-align: center;
+  }
+  
+  .admin-container {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    margin-bottom: 20px;
+  }
+  
+  .admin-container p {
+    margin: 0;
+  }
+  
+  button {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 8px;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  /* Optional: Provide some spacing between individual admin containers */
+  .admin-container + .admin-container {
+    margin-top: 20px;
+  }
+  
