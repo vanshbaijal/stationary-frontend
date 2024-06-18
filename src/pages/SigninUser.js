@@ -45,8 +45,8 @@ export default function SigninUser() {
             <div className="inputs-section">
                 <h2>Sign in to DocUp</h2>
                 <form onSubmit={(e) => handleSubmit(e)}>
-                    <input type="text" className="signin-inputs" placeholder="Email" onChange={(e) => { setEmail(e.target.value) }} value={email} />
-                    <input type="password" className="signin-inputs" placeholder="Password" onChange={(e) => { setPassword(e.target.value) }} value={password} />
+                    <input type="text" className="signin-inputs" placeholder="Email [Enter: abc@gmail.com]" onChange={(e) => { setEmail(e.target.value) }} value={email} />
+                    <input type="password" className="signin-inputs" placeholder="Password [Enter: 123]" onChange={(e) => { setPassword(e.target.value) }} value={password} />
                     <div className="signin-inputs-btn-container">
                         <button type="submit" className="signin-inputs-btn">Sign in</button>
                     </div>
